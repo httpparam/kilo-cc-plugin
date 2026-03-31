@@ -1,13 +1,18 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kilo-marketplace",
+  "description": "Code review, debug, and task delegation via Kilo CLI.",
   "owner": {
     "name": "httpparam"
   },
   "plugins": [
     {
       "name": "kilo",
-      "source": "github:httpparam/kilo-cc-plugin",
-      "description": "Code review, debug, and task delegation via Kilo CLI."
+      "description": "Code review, debug, and task delegation via Kilo CLI.",
+      "source": {
+        "source": "github",
+        "repo": "httpparam/kilo-cc-plugin"
+      }
     }
   ]
 }
