@@ -25,7 +25,7 @@ we've got some lowercase slash commands for you (because shouting is rude):
 2. make sure you've run `kilo auth` or `/connect` somewhere so kilo knows who you are.
 3. add the marketplace in claude code:
    ```
-   /plugin marketplace add https://raw.githubusercontent.com/httpparam/kilo-cc-plugin/main/marketplace.json
+   /plugin marketplace add https://raw.githubusercontent.com/httpparam/kilo-cc-plugin/main/.claude-plugin/marketplace.json
    ```
 4. then install the plugin:
    ```
