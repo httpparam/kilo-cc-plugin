@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    {
+      "id": "kilo",
+      "version": "1.0.0",
+      "name": "Kilo Code",
+      "description": "Code review, debug, and task delegation via Kilo CLI.",
+      "manifestUrl": "https://raw.githubusercontent.com/httpparam/kilo-cc-plugin/main/.claude-plugin/plugin.json"
+    }
+  ]
+}

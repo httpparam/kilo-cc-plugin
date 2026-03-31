@@ -23,11 +23,20 @@ we've got some lowercase slash commands for you (because shouting is rude):
 
 1. you need the [kilo cli](https://kilo.ai/docs/code-with-ai/platforms/cli) installed. if you don't have it, `npm install -g @kilocode/cli` is your friend.
 2. make sure you've run `kilo auth` or `/connect` somewhere so kilo knows who you are.
-3. load this plugin in claude code like this:
-   ```bash
-   claude --plugin-dir /path/to/this/repo
+3. add the marketplace in claude code:
    ```
-4. type `/kilo:setup` and follow the vibes.
+   /plugin marketplace add https://raw.githubusercontent.com/httpparam/kilo-cc-plugin/main/marketplace.json
+   ```
+4. then install the plugin:
+   ```
+   /plugin install kilo
+   ```
+5. type `/kilo:setup` and follow the vibes.
+
+if you prefer to install from a local folder:
+```bash
+claude --plugin-dir /path/to/this/repo
+```
 
 ## why?
 
