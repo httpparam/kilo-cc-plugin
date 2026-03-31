@@ -1,11 +1,13 @@
 {
+  "name": "kilo-marketplace",
+  "owner": {
+    "name": "httpparam"
+  },
   "plugins": [
     {
-      "id": "kilo",
-      "version": "1.0.0",
-      "name": "Kilo Code",
-      "description": "Code review, debug, and task delegation via Kilo CLI.",
-      "manifestUrl": "https://raw.githubusercontent.com/httpparam/kilo-cc-plugin/main/.claude-plugin/plugin.json"
+      "name": "kilo",
+      "source": "https://github.com/httpparam/kilo-cc-plugin",
+      "description": "Code review, debug, and task delegation via Kilo CLI."
     }
   ]
 }
