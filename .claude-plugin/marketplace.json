@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "kilo",
-      "source": "https://github.com/httpparam/kilo-cc-plugin",
+      "source": "github:httpparam/kilo-cc-plugin",
       "description": "Code review, debug, and task delegation via Kilo CLI."
     }
   ]
